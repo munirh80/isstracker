@@ -1,6 +1,7 @@
 include ':app'
 include ':capacitor-android'
 include ':capacitor-cordova-android-plugins'
+include(":capacitor-geolocation")
 
 project(':capacitor-android').projectDir = new File('../node_modules/@capacitor/android/capacitor')
 project(':capacitor-cordova-android-plugins').projectDir = new File('../android/capacitor-cordova-android-plugins/')
